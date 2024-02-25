@@ -1,4 +1,6 @@
-﻿namespace Business.Dtos.Responses
+﻿using System;
+
+namespace Business.Dtos.Responses
 {
     public class CreatedBrandResponse
     {

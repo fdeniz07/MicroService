@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business.Dtos.Requests
 {
-    public class CreatedBrandRequest
+    public class CreateBrandRequest
     {
         public string Name { get; set; }
     }

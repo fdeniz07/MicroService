@@ -6,8 +6,8 @@ namespace Business.Abstracts
 {
     public interface IBrandService
     {
-        CreatedBrandResponse Add(CreatedBrandRequest brand);
+        CreatedBrandResponse Add(CreateBrandRequest createBrandRequest);
 
-        List<Brand> GetAll();
+        List<GetAllBrandResponse> GetAll();
     }
 }
